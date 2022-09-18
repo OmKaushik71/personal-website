@@ -1,0 +1,56 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(253, 155, 245),rgb(229, 104, 255));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: #aa58ce;
+    width: 80%;
+    max-width: 750px;
+    padding: 2em;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2rem;
+}
+main > img {
+    width: auto;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.344);
+    margin-bottom: 2em;
+}
+
+a > img{
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+}
+.title{
+    font-size: 1.3rem;
+    font-weight: 100;
+    opacity: 80%;
+    margin-bottom: 0.8em;
+}
+.name{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 0.8em;
+}
+.about{
+    font-size: 1.3rem;
+    margin-bottom: 2.5em;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.6rem;
+}
+a + a{
+margin-left: 1em;
+}
